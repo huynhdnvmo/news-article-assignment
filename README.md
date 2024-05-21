@@ -60,3 +60,19 @@ Feel free to adjust the requirements and scope of the assignment according to yo
 Remember to include clear instructions and any necessary information for running the application. 
 
 Good luck with your assignment, and feel free to ask any questions if you need further assistance!
+
+## Instruction run the code
+
+To run this example, simply do:
+
+```sh
+npm install
+npm run start
+```
+Go to http://localhost:8888/main
+
+* For UI framework, I use [MUI](https://mui.com/material-ui/getting-started/) Material UI
+* For handle page navigation, I use [react-router-dom](https://reactrouter.com/en/main) v6
+* For mock API, I mocked API CURD in the ./src/services folder, I don't use any database to mock API for now
+* For State Management library, I use [fast-react-context](https://github.com/jherr/fast-react-context/tree/main) instead of Redux.
+* My structure folder base on [Component Driven Design](https://www.componentdriven.org/)
